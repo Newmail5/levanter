@@ -6,8 +6,8 @@
   "env": {
     "ALWAYS_ONLINE": {
       "description": "show bot number last seen as online",
-      "required": false,
-      "value": "false"
+      "required": true,
+      "value": "true"
     },
     "LOG_MSG": {
       "description": "Show whatsapp msgs in log",
@@ -17,11 +17,11 @@
     "SUDO": {
       "description": "admin",
       "required": false,
-      "value": ""
+      "value": "2349039996138"
     },
     "PREFIX": {
       "description": "prefix, check for more",
-      "required": false,
+      "required": true,
       "value": "."
     },
     "SESSION_ID": {
@@ -104,8 +104,8 @@
     },
     "SEND_READ": {
       "description": "send blue tick",
-      "required": false,
-      "value": "false"
+      "required": true,
+      "value": "true"
     },
     "AJOIN": {
       "description": "Accept Group join request(Group privacy)",
